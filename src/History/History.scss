@@ -1,0 +1,26 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.historySection table {
+    font-family: Arial, serif;
+    font-size: 14px;
+    width: 100%;
+    thead th {
+        position: sticky;
+        top: 0;
+        background-color: #0000cd7a;
+        font-weight: normal;
+        text-align: left;
+        padding: 5px;
+        color: #fafafa;
+    }
+    tbody td {
+        font-weight: normal;
+        text-align: left;
+        padding: 5px;
+    }
+}

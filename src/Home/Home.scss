@@ -1,0 +1,19 @@
+.sub-section {
+    .navTabs {
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+    }
+}
+
+.content {
+    height: 550px;
+    overflow-y: auto;
+    background-color: #4fc3f729;
+    p {
+        margin: 15% auto;
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+    }
+}
